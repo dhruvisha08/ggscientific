@@ -1,7 +1,6 @@
 import logo from "../assets/images/logo.jpeg";
 import { Link, useNavigate } from "react-router-dom";
 import "./LandingPage.css";
-import { use } from "react";
 
 export const Header = () => {
   const navigate = useNavigate();
